@@ -1,0 +1,37 @@
+export const pt = {
+  language: "Português (Brasil)",
+  setup: {
+    title: "Mente Rápida",
+    subtitle: "Configuração do Jogo",
+    gameMode: "Modo de Jogo",
+    tap: "Toque",
+    classic: "Clássico",
+    numPlayers: "Número de Jogadores",
+    player: "Jogador",
+    playerNamePlaceholder: "Digite o nome do Jogador",
+    timeLimit: "Tempo Limite por Turno",
+    seconds: "segundos",
+    error: "Todos os nomes dos jogadores devem ser preenchidos.",
+    start: "Começar Jogo",
+  },
+  theme: {
+    loading: "Gerando um tema...",
+    title: "TEMA",
+  },
+  game: {
+    scores: "Pontuações",
+    theme: "Tema",
+    turn: "Vez de",
+    getLetter: "Toque para Letra",
+    correct: "Correto",
+    incorrect: "Incorreto",
+    endGame: "Terminar Jogo",
+  },
+  gameOver: {
+    title: "Fim de Jogo!",
+    tie: "É um Empate!",
+    winner: "Vencedor",
+    scores: "Pontuações Finais",
+    playAgain: "Jogar Novamente",
+  },
+};

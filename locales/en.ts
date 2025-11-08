@@ -1,0 +1,37 @@
+export const en = {
+  language: "English",
+  setup: {
+    title: "Quick Wit",
+    subtitle: "Game Setup",
+    gameMode: "Game Mode",
+    tap: "Tap",
+    classic: "Classic",
+    numPlayers: "Number of Players",
+    player: "Player",
+    playerNamePlaceholder: "Enter name for Player",
+    timeLimit: "Time Limit per Turn",
+    seconds: "seconds",
+    error: "All player names must be filled out.",
+    start: "Start Game",
+  },
+  theme: {
+    loading: "Generating a theme...",
+    title: "THEME",
+  },
+  game: {
+    scores: "Scores",
+    theme: "Theme",
+    turn: "'s Turn",
+    getLetter: "Tap for Letter",
+    correct: "Correct",
+    incorrect: "Incorrect",
+    endGame: "End Game",
+  },
+  gameOver: {
+    title: "Game Over!",
+    tie: "It's a Tie!",
+    winner: "Winner",
+    scores: "Final Scores",
+    playAgain: "Play Again",
+  },
+};

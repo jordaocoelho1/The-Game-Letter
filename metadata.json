@@ -1,0 +1,5 @@
+{
+  "name": "Quick Wit Word Game",
+  "description": "A fast-paced party game where players test their knowledge on various themes. A random letter is shown, and players must quickly name something from the theme starting with that letter before time runs out.",
+  "requestFramePermissions": []
+}
