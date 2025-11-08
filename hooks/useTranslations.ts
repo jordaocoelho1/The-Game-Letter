@@ -1,6 +1,6 @@
-import { Language } from '../types';
-import { en } from '../locales/en';
-import { pt } from '../locales/pt';
+import { Language } from '../types.ts';
+import { en } from '../locales/en.ts';
+import { pt } from '../locales/pt.ts';
 
 export const useTranslations = (lang: Language) => {
   if (lang === 'pt') {

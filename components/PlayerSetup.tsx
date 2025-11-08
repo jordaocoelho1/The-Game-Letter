@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Player, GameMode } from '../types';
-import { UsersIcon, ClockIcon, PlayIcon } from './icons';
-import { playClickSound } from '../services/soundService';
+import { Player, GameMode } from '../types.ts';
+import { UsersIcon, ClockIcon, PlayIcon } from './icons/index.tsx';
+import { playClickSound } from '../services/soundService.ts';
 
 interface PlayerSetupProps {
   onStartGame: (players: Player[], timeLimit: number, gameMode: GameMode) => void;

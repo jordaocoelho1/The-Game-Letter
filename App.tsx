@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Player, GameState, GameMode, Language } from './types';
-import { ALPHABET } from './constants';
-import { getGameTheme } from './services/geminiService';
-import { playCountdownSound, playGameStartSound, playTimeoutSound, playNextTurnSound, playSuccessSound, playUrgentAlertSound } from './services/soundService';
-import { useTranslations } from './hooks/useTranslations';
-import LanguageSelector from './components/LanguageSelector';
-import PlayerSetup from './components/PlayerSetup';
-import GameScreen from './components/GameScreen';
-import GameOver from './components/GameOver';
+import { Player, GameState, GameMode, Language } from './types.ts';
+import { ALPHABET } from './constants.ts';
+import { getGameTheme } from './services/geminiService.ts';
+import { playCountdownSound, playGameStartSound, playTimeoutSound, playNextTurnSound, playSuccessSound, playUrgentAlertSound } from './services/soundService.ts';
+import { useTranslations } from './hooks/useTranslations.ts';
+import LanguageSelector from './components/LanguageSelector.tsx';
+import PlayerSetup from './components/PlayerSetup.tsx';
+import GameScreen from './components/GameScreen.tsx';
+import GameOver from './components/GameOver.tsx';
 
 const App: React.FC = () => {
   const [language, setLanguage] = useState<Language>('en');

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { Player } from '../types';
-import { TrophyIcon, PlayIcon } from './icons';
-import { playGameOverSound, playClickSound } from '../services/soundService';
+import { Player } from '../types.ts';
+import { TrophyIcon, PlayIcon } from './icons/index.tsx';
+import { playGameOverSound, playClickSound } from '../services/soundService.ts';
 
 interface GameOverProps {
   players: Player[];

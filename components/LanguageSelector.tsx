@@ -1,6 +1,6 @@
 import React from 'react';
-import { Language } from '../types';
-import { playClickSound } from '../services/soundService';
+import { Language } from '../types.ts';
+import { playClickSound } from '../services/soundService.ts';
 
 interface LanguageSelectorProps {
   onSelectLanguage: (lang: Language) => void;

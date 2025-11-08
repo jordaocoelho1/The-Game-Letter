@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { Language } from '../types';
+import { Language } from '../types.ts';
 
 const prompts = {
   en: "Generate a single, common category name for a word association party game. The response must be in English. Examples: Countries, Animals, Professions, Car Brands.",

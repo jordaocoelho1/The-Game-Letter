@@ -1,7 +1,7 @@
 import React from 'react';
-import { Player, GameMode } from '../types';
-import { CheckIcon, XIcon } from './icons';
-import { playClickSound } from '../services/soundService';
+import { Player, GameMode } from '../types.ts';
+import { CheckIcon, XIcon } from './icons/index.tsx';
+import { playClickSound } from '../services/soundService.ts';
 
 interface GameScreenProps {
   players: Player[];
